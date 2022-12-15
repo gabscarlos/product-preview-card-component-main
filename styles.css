@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F2EAE2;
+}
+
+img {
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: 280px;
+    top: 170px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: 650px;
+    top: 170px;
+}
+
+.container h1 {
+    margin: 15px;
+    padding-bottom: 20px;
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+.container h3 {
+    margin: 15px;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+h4 {
+    margin: 15px;
+    padding-bottom: 20px;;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+p {
+    margin: 15px;
+    line-height: 30px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+button {
+    margin: 30px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    background-color: hsl(158, 61%, 31%);
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 10px;
+    width: 70%;
+    border: 0;
+}
+
+svg {    
+    padding-right: 30px;
+}
+
+.price {
+    color: hsl(158, 61%, 31%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    left: 505px;
+    top: 880px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
